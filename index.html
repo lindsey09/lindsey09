@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- jQuery  -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <!-- RESET CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/2.3.0/css/reset.min.css">
+    <!-- FONT FAMILY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/e5f5574d6c.js" crossorigin="anonymous"></script>
+    <!-- TYPEIT -->
+    <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <script defer src="js/main.js"></script>
+<!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script>
+  AOS.init();
+</script> 
+<div  data-aos="fade-right" data-aos-delay="200" class="aos-init aos-animate"> </div>
+-->
+
+ </head>
+<body>
+   
+    <canvas id="myCanvas"></canvas>
+
+        <header>
+            <div class="inner">
+                <div class="menu-logo">
+                    <ul class="menu">
+                        <li><a href="#profile">PROFILE</a></li>
+                        <li><a href="#portfolio">PORTFOLIO</a></li>
+                    </ul>
+                    <div class="logo">
+                        <h1>Hyeon kyeong's <span>Portfolio</span></h1>
+                    </div>
+                </div>
+                <h3 id="hello"></h3>
+            </div>
+        </header>
+
+        <section class="profile" id="profile">
+            <div class="inner">
+                <div class="profile-img">
+                    <img src="image/me.jpg">
+                </div>
+                <ul>
+                    <li><h3>김현경 프로필</h3></li>
+                    <li class="ment">"어디에서나 꼭 필요한 사람이 되자!"<br> 어릴때부터 항상 되뇌이고 생각하고 지내는 문구입니다. 제가 어디에서 무슨일을 하던
+                    항상 그 위치에서 최선을 다하려고 노력하며, 매사 주어진 일은 신중하고 꼼꼼하게 처리하려 합니다.</li>
+                    <li>
+                        <dl>
+                            <dt>경력</dt>
+                            <dd>(주)인터커뮤즈 (2017.03 ~ 2022.09)</dd>
+                            <dd>웹 에이전시, 디자인 및 퍼블리싱 작업</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>교육</dt>
+                            <dd>연희직업전문학교 UI,UX반응형 교육 이수(2016.12 ~ 2017.02)</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>퍼블리싱 기술</dt>
+                            <dd>HTML5, CSS(SCSS), jQuery, Javascript, Bootstrap</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>자격증</dt>
+                            <dd>GTQ</dd>
+                            <dd>웹디자인기능사</dd>
+                            
+                        </dl>
+                    </li>
+                </ul>
+              
+            </div>
+            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1921.12 121.3"><defs><style>.cls-1{fill:#fff;}.cls-2{fill:#e6edfe;}</style></defs><title>bg</title><line class="cls-1" x1="1917.11" y1="121.3" x2="1.01" y2="121.3"/><rect class="cls-1" y="9.24" width="1921.12" height="103.72"/><path class="cls-2" d="M.67,3.17s978.7,233.38,1921.13,0V-6.07H.67Z" transform="translate(-0.67 6.07)"/></svg>
+        </section>
+        
+        <section class="portfolio" id="portfolio">
+
+            <div class="inner">
+                <div class="summary">
+                    <h2>WEB PORTFOLIO</h2>     
+                </div>
+                <ul class="portfolio-tab">
+                    <li class="active" rel="tab01">PC/Mobile</li>
+                    <li rel="tab02">Responsive</li>
+                </ul>
+            </div>
+
+
+            <div class="portfolio01 portfolio-view" id="tab01">
+
+                <div class="portfolio-white">
+                    <div class="inner">
+                            
+                        <dl>
+                            <dt><a href="http://steelocs.com" target="_blank"><img src="image/pcimg_01.png"></a></dt>
+                            <dd>
+                                <h3>스틸옥스</h3>
+                                <p><a href="http://steelocs.com" target="_blank">URL : http://steelocs.com</a></p>
+                                <p>프로젝트 참여율 - 디자인:100% &nbsp; 퍼블리싱 100%</p>
+                                <ul>
+                                    <li>HTML5</li>
+                                    <li>CSS</li>
+                                    <li>jQuery</li>
+                                </ul>
+
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="http://hyunwooslg.com" target="_blank"><img src="image/pcimg_02.png"></a></dt>
+                            <dd>
+                                <h3>현우금속</h3>
+                                <p><a href="http://hyunwooslg.com" target="_blank">URL : http://hyunwooslg.com</a></p>
+                                <p>프로젝트 참여율- 디자인:100%  &nbsp; 퍼블리싱 100%</p>
+                                <ul>
+                                    <li>HTML5</li>
+                                    <li>CSS</li>
+                                    <li>jQuery</li>
+                                </ul>
+
+                            </dd>
+                        </dl> 
+                        
+                        <dl class="none">
+                            <dt><a href="http://hbreast.com" target="_blank"><img src="image/pcimg_03.png"></a></dt>
+                            <dd>
+                                <h3>계양하루여성외과</h3>
+                                <p><a href="http://hbreast.com" target="_blank">URL : http://hbreast.com</a></p>
+                                <p>프로젝트 참여율- 디자인:80%, 퍼블리싱 100%</p>
+                                <ul>
+                                    <li>HTML5</li>
+                                    <li>CSS</li>
+                                    <li>jQuery</li>
+                                </ul>
+
+                            </dd>
+                        </dl>
+
+                         
+                        
+                    </div>
+                </div>
+
+
+                <div class="portfolio-purple">
+                    <div class="inner">
+                           
+                        <dl>
+                            <dt><a href="http://unitop.kr" target="_blank"><img src="image/pcimg_04.png"></a></dt>
+                            <dd>
+                                <h3>광성테크</h3>
+                                <p><a href="http://unitop.kr" target="_blank">URL : http://unitop.kr</a></p>
+                                <p>프로젝트 참여율- 디자인:80%, 퍼블리싱 100%</p>
+                                <ul>
+                                    <li>HTML5</li>
+                                    <li>CSS</li>
+                                    <li>jQuery</li>
+                                </ul>
+
+                            </dd>
+                        </dl>    
+                        
+                        <dl>
+                            <dt><a href="http://imtechkorea.co.kr" target="_blank"><img src="image/pcimg_05.png"></a></dt>
+                            <dd>
+                                <h3>아이엠테크</h3>
+                                <p><a href="http://imtechkorea.co.kr" target="_blank">URL : http://imtechkorea.co.kr</a></p>
+                                <p>프로젝트 참여율 - 디자인:80% &nbsp; 퍼블리싱 100%</p>
+                                <ul>
+                                    <li>HTML5</li>
+                                    <li>CSS</li>
+                                    <li>jQuery</li>
+                                </ul>
+
+                            </dd>
+                        </dl>
+                        <dl class="none">
+                            <dt><a href="http://bellevillecs.org" target="_blank"><img src="image/pcimg_06.png"></a></dt>
+                            <dd>
+                                <h3>KICS 벨빌</h3>
+                                <p><a href="http://bellevillecs.org" target="_blank">URL : http://bellevillecs.org</a></p>
+                                <p>프로젝트 참여율- 디자인:80%  &nbsp; 퍼블리싱 100%</p>
+                                <ul>
+                                    <li>HTML5</li>
+                                    <li>CSS</li>
+                                    <li>jQuery</li>
+                                </ul>
+
+                            </dd>
+                        </dl> 
+
+                           
+                        
+                    </div>
+                </div>
+
+                <div class="portfolio-white">
+                    <div class="inner">
+                        <dl>
+                            <dt><a href="http://iuv.kr" target="_blank"><img src="image/pcimg_07.png"></a></dt>
+                            <dd>
+                                <h3>아이유브이</h3>
+                                <p><a href="http://iuv.kr" target="_blank">URL : http://iuv.kr</a></p>
+                                <p>프로젝트 참여율- 디자인:80%, 퍼블리싱 100%</p>
+                                <ul>
+                                    <li>HTML5</li>
+                                    <li>CSS</li>
+                                    <li>jQuery</li>
+                                </ul>
+
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="http://saehantrade.co.kr" target="_blank"><img src="image/pcimg_08.png"></a></dt>
+                            <dd>
+                                <h3>새한무역</h3>
+                                <p><a href="http://saehantrade.co.kr" target="_blank">URL : saehantrade.co.kr</a></p>
+                                <p>프로젝트 참여율- 디자인:80%, 퍼블리싱 100%</p>
+                                <ul>
+                                    <li>HTML5</li>
+                                    <li>CSS</li>
+                                    <li>jQuery</li>
+                                </ul>
+
+                            </dd>
+                        </dl>  
+                        
+                        <dl class="none">
+                            <dt><a href="http://lnptech.co.kr" target="_blank"><img src="image/pcimg_09.png"></a></dt>
+                            <dd>
+                                <h3>(주)엘엔피</h3>
+                                <p><a href="http://lnptech.co.kr" target="_blank">URL : http://lnptech.co.kr</a></p>
+                                <p>프로젝트 참여율 - 디자인:80% &nbsp; 퍼블리싱 100%</p>
+                                <ul>
+                                    <li>HTML5</li>
+                                    <li>CSS</li>
+                                    <li>jQuery</li>
+                                </ul>
+
+                            </dd>
+                        </dl>
+                        
+                                
+                    </div>
+                </div>
+
+
+                <div class="portfolio-purple">
+                   <div class="inner">
+                    <dl>
+                        <dt><a href="http://okssal.com" target="_blank"><img src="image/pcimg_10.png"></a></dt>
+                        <dd>
+                            <h3>후라이드바삭킹</h3>
+                            <p><a href="http://okssal.com" target="_blank">URL : http://okssal.com</a></p>
+                            <p>프로젝트 참여율- 디자인:2_blank0%  &nbsp; 퍼블리싱 100%</p>
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS</li>
+                                <li>jQuery</li>
+                            </ul>
+
+                        </dd>
+                    </dl>    
+                     
+                    <dl>
+                        <dt><a href="http://vantagepoint.co.kr" target="_blank"><img src="image/pcimg_11.png"></a></dt>
+                        <dd>
+                            <h3>밴티지포인트 주식연구소</h3>
+                            <p><a href="http://vantagepoint.co.kr" target="_blank">URL : http://vantagepoint.co.kr</a></p>
+                            <p>프로젝트 참여율- 디자인:20%, 퍼블리싱 100%</p>
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS</li>
+                                <li>jQuery</li>
+                            </ul>
+
+                        </dd>
+                    </dl>
+                    <dl class="none">
+                        <dt><a href="http://onepicktire.com" target="_blank"><img src="image/pcimg_12.png"></a></dt>
+                        <dd>
+                            <h3>원픽타이어</h3>
+                            <p><a href="http://onepicktire.com" target="_blank">URL : onepicktire.com</a></p>
+                            <p>프로젝트 참여율- 디자인:10%, 퍼블리싱 100%</p>
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS</li>
+                                <li>jQuery</li>
+                            </ul>
+
+                        </dd>
+                    </dl> 
+                   </div>     
+                </div>
+
+            </div>
+
+
+
+
+            <div class="portfolio02 portfolio-view" id="tab02">
+                <div class="portfolio-white">
+                    <div class="inner">
+                            
+                        <dl>
+                            <dt><a href="http://fireshutter.co.kr" target="_blank"><img src="image/pcimg_13.png"></a></dt>
+                            <dd>
+                                <h3>월드에프엔에스</h3>
+                                <p><a href="http://fireshutter.co.kr" target="_blank">URL : http://fireshutter.co.kr</a></p>
+                                <p>프로젝트 참여율 - 디자인:80% &nbsp; 퍼블리싱 80%</p>
+                                <ul>
+                                    <li>HTML5</li>
+                                    <li>CSS</li>
+                                    <li>jQuery</li>
+                                </ul>
+
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="http://speechyoon.co.kr" target="_blank"><img src="image/pcimg_14.png"></a></dt>
+                            <dd>
+                                <h3>윤선영언어심리발달센터</h3>
+                                <p><a href="http://speechyoon.co.kr" target="_blank">URL : http://speechyoon.co.kr</a></p>
+                                <p>프로젝트 참여율- 디자인:80%  &nbsp; 퍼블리싱 100%</p>
+                                <ul>
+                                    <li>HTML5</li>
+                                    <li>CSS</li>
+                                    <li>jQuery</li>
+                                </ul>
+
+                            </dd>
+                        </dl>    
+                        
+                        <dl class="none">
+                            <dt><a href="http://donga-tech.com" target="_blank"><img src="image/pcimg_15.png"></a></dt>
+                            <dd>
+                                <h3>동아정밀공업</h3>
+                                <p><a href="http://donga-tech.com" target="_blank">URL : http://donga-tech.com</a></p>
+                                <p>프로젝트 참여율- 디자인:80%, 퍼블리싱 80%</p>
+                                <ul>
+                                    <li>HTML5</li>
+                                    <li>CSS</li>
+                                    <li>jQuery</li>
+                                </ul>
+
+                            </dd>
+                        </dl>
+                        
+
+                    </div>
+                </div>
+
+
+                <div class="portfolio-purple">
+                    <div class="inner">
+                            
+                        <dl>
+                            <dt><a href="http://sunkorea5.com" target="_blank"><img src="image/pcimg_16.png"></a></dt>
+                            <dd>
+                                <h3>썬코리아</h3>
+                                <p><a href="http://sunkorea5.com" target="_blank">URL : http://sunkorea5.com</a></p>
+                                <p>프로젝트 참여율- 디자인:80%, 퍼블리싱 80%</p>
+                                <ul>
+                                    <li>HTML5</li>
+                                    <li>CSS</li>
+                                    <li>jQuery</li>
+                                </ul>
+
+                            </dd>
+                        </dl> 
+                        
+                        
+                        <dl>
+                            <dt><a href="http://saladia.kr" target="_blank"><img src="image/pcimg_17.png"></a></dt>
+                            <dd>
+                                <h3>샐러디아</h3>
+                                <p><a href="http://saladia.kr" target="_blank">URL : http://saladia.kr</a></p>
+                                <p>프로젝트 참여율 - Index page 퍼블리싱 100%</p>
+                                <ul>
+                                    <li>HTML5</li>
+                                    <li>CSS</li>
+                                    <li>jQuery</li>
+                                </ul>
+
+                            </dd>
+                        </dl>
+                        <!-- <dl class="none">
+                            <dt><img src="image/pcimg_14.png"></dt>
+                            <dd>
+                                <h3></h3>
+                                <p><a href="http://#" target="_blank">URL : http://#</a></p>
+                                <p>프로젝트 참여율- 디자인:80%  &nbsp; 퍼블리싱 80%</p>
+                                <ul>
+                                    
+                                    <li>HTML5</li>
+                                    <li>CSS</li>
+                                    <li>jQuery</li>
+                                </ul>
+                            </dd>
+                        </dl>          -->
+
+                    </div>
+                </div>    
+
+            
+
+            </div>
+
+
+        </section>
+
+        <footer>
+            <p>CONTACT ME &nbsp;&nbsp; 김현경 &nbsp;&nbsp; <a href="tel:01090639219"><i class="fas fa-mobile-alt"></i> 010-9063-9219</a> &nbsp;&nbsp; <a href="mailto:mmommm@naver.com">mmommm@naver.com</a></p>
+            <p>COPYRIGHT &copy; 2022 - KIM HYEON KYEONG - ALL RIGHT RESERVED.</p>
+        </footer>
+
+
+      
+        <div class="scroll-progess" id="scroll-progess"></div>
+        
+
+        <button class="scroll-up"><i class="fas fa-arrow-circle-up"></i></button>
+
+        <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+</body>
+</html>
