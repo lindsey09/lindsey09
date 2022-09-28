@@ -356,8 +356,8 @@ header h3{
 section.profile{
     background:#e6edfe; 
     width: 100%; 
-    height: 100vh; 
-    padding:130px 20px 0px; 
+    height: 160vh; 
+    padding:130px 20px 60px; 
     position:relative;
     box-sizing: border-box;
 }
