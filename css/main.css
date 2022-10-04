@@ -356,7 +356,7 @@ header h3{
 section.profile{
     background:#e6edfe; 
     width: 100%; 
-    hei ght: 160vh; 
+    height: 110vh; 
     padding:130px 20px 60px; 
     position:relative;
     box-sizing: border-box;
@@ -402,7 +402,7 @@ footer p{
 @media (max-width:1080px){
     /*SECTION*/
 section.profile{
-    heig ht:155vh;
+    height:100vh;
     padding:80px 20px 50px; 
 }
 section.profile ul li.ment{
@@ -483,7 +483,7 @@ header h3{
  /*SECTION*/
 section.profile{
     padding:80px 20px 0px; 
-    he ight: 210vh;
+    height: 125vh;
 }
 section.profile ul{
     margin-left:0;
