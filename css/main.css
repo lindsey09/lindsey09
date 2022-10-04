@@ -483,7 +483,7 @@ header h3{
  /*SECTION*/
 section.profile{
     padding:80px 20px 20px; 
-    height: 110vh;
+    height: auto;
 }
 section.profile ul{
     margin-left:0;
