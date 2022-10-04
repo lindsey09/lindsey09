@@ -500,9 +500,7 @@ section.profile .inner{
     display:block;
 }
 section.profile .profile-img{
-    width:100%;
-    text-align: center;
-    margin-bottom:50px;
+    display:none;
 }
 section.profile img{
     width: 100%;
