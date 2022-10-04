@@ -482,8 +482,8 @@ header h3{
 
  /*SECTION*/
 section.profile{
-    padding:80px 20px 30px; 
-    height: 100vh;
+    padding:80px 20px 20px; 
+    height: 110vh;
 }
 section.profile ul{
     margin-left:0;
@@ -500,11 +500,13 @@ section.profile .inner{
     display:block;
 }
 section.profile .profile-img{
-    display:none;
+    width:100%;
+    text-align: center;
+    margin-bottom:50px;
 }
 section.profile img{
     width: 100%;
-    max-width:340px;
+    max-width:300px;
 }
 section.profile ul{
     width:100%; 
