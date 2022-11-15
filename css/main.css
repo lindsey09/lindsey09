@@ -68,8 +68,7 @@ header h3{
 /*SECTION*/
 section.profile{
     background:#e6edfe; 
-    width: 100%; 
-    height: 120vh; 
+    width: 100%;  
     padding:120px 0 80px; 
     position:relative;
 }
